@@ -44,7 +44,7 @@ export const ExpenseTracker =()=>{
         <>
         <div className="expense-tracker">
             <div className="container">
-                <h1>{name}'s Expense Tracker</h1>
+                <h1>{name}'s Expense Tracker Gaman</h1>
                 <div className="balance">
                     <h3>Your balance</h3>
                     <h2>${transactionTotals.balance}</h2>
