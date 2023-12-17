@@ -25,6 +25,7 @@ export const ExpenseTracker =()=>{
           setDescription("");
           setTransactionAmount("");
     }
+
     
     const signUserOut= async()=>{
         try{
@@ -97,3 +98,13 @@ export const ExpenseTracker =()=>{
     </>
     )
 }
+
+
+// import firebase from 'firebase/app';
+// import 'firebase/database';
+
+// const deleteTransaction = (id) => {
+//     firebase.database().ref('transactions/' + id).remove();
+// }
+
+// <button onClick={() => deleteTransaction(transactionId)}>Delete Transaction</button>
